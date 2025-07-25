@@ -1,8 +1,7 @@
 import React from "react";
-import "./App.css";
 
 function App() {
-  return <div className="App">start mind test</div>;
+  return <div>마음상점</div>;
 }
 
 export default App;
