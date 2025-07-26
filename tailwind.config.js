@@ -4,8 +4,7 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        handwriting: ["Nanum Pen Script", "cursive"],
-        korean: ["Noto Sans KR", "sans-serif"],
+        ryuryu: ["Ownglyph_ryurue-Rg", "cursive"],
       },
       screens: {
         xs: "375px",
