@@ -5,13 +5,17 @@ import svgr from "vite-plugin-svgr";
 
 export default defineConfig({
   plugins: [
-    react(),
-    tailwindcss(),
     svgr({
       svgrOptions: {
         icon: true,
-        svgo: true,
       },
     }),
+    react(),
+    tailwindcss(),
   ],
+  resolve: {
+    alias: {
+      "@": "/src",
+    },
+  },
 });
